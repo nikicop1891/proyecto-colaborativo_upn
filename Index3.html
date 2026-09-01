@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Página Web</title>
+    <style>
+        /* Estilos para el fondo y la alineación */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fdfbf7; /* Fondo cálido */
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Estilos de la tarjeta central */
+        .tarjeta {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #ff6b6b; /* Color vibrante para el título */
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Estilos del botón */
+        button {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background-color: #ff4757; /* Cambia de color al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="tarjeta">
+        <h1>¡Hola, Mundo!</h1>
+        <p>Esta es mi primera página web. Todo este diseño está creado en un solo archivo usando HTML y CSS.</p>
+        
+        <!-- Este botón usa un poco de JavaScript -->
+        <button onclick="saludar()">¡Haz clic aquí!</button>
+    </div>
+
+    <script>
+        // Esta función hace que el botón muestre un mensaje
+        function saludar() {
+            alert("¡Felicidades por crear tu primera página web!");
+        }
+    </script>
+
+</body>
+</html>
