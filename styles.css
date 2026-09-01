@@ -1,35 +1,63 @@
+* {
+box-sizing: border-box;
+}
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #f1f5f9;
+color: #1e293b;
 }
-
 header {
-    background-color: #1e3a8a;
-    color: white;
-    text-align: center;
-    padding: 30px;
+background-color: #172554;
+color: white;
+text-align: center;
+padding: 35px;
 }
-
-.contenedor {
-    width: 80%;
-    max-width: 700px;
-    margin: 50px auto;
-    background-color: white;
-    padding: 30px;
-    text-align: center;
-    border-radius: 10px;
+header h1 {
+margin-bottom: 10px;
 }
-
+.hero {
+text-align: center;
+padding: 50px 20px;
+}
+.hero h2 {
+font-size: 32px;
+color: #1e3a8a;
+}
 button {
-    background-color: #2563eb;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    cursor: pointer;
+margin-top: 20px;
+background-color: #2563eb;
+color: white;
+border: none;
+padding: 14px 28px;
+border-radius: 6px;
+cursor: pointer;
+font-size: 16px;
 }
-
 button:hover {
-    background-color: #1d4ed8;
+background-color: #1d4ed8;
+}
+.tarjetas {
+display: flex;
+justify-content: center;
+gap: 20px;
+padding: 30px;
+}
+.tarjeta {
+background-color: white;
+width: 250px;
+padding: 25px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.tarjeta h3 {
+color: #2563eb;
+}
+footer {
+margin-top: 50px;
+background-color: #172554;
+color: white;
+text-align: center;
+padding: 20px;
 }
